@@ -27,7 +27,7 @@ def anonLogin(host):
         print(f"{colorama.Fore.BLUE + '[+]'}{colorama.Style.RESET_ALL} {colorama.Style.BRIGHT}{str(host)}{colorama.Style.RESET_ALL} FTP Anonymous Login Succeded" , end="\n")
         ftp.quit()
     except Exception:
-        print(f"{colorama.Fore.RED + '[+]'} {colorama.Style.RESET_ALL}{colorama.Style.BRIGHT}{str(host)}{colorama.Style.RESET_ALL} FTP Anonymous Login Failed", end="\n")        
+        print(f"{colorama.Fore.RED + '[-]'} {colorama.Style.RESET_ALL}{colorama.Style.BRIGHT}{str(host)}{colorama.Style.RESET_ALL} FTP Anonymous Login Failed", end="\n")        
                 
 
 
