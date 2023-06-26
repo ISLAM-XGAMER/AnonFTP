@@ -12,7 +12,7 @@ The password field is often left empty or disregarded by FTP servers.
 
 ## Setup 
 ```
-python3 pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 ```
 python3 AnonFTP.py
