@@ -14,9 +14,6 @@ The password field is often left empty or disregarded by FTP servers.
 ```
 python3 -m pip install -r requirements.txt
 ```
-```
-python3 AnonFTP.py
-```
 
 ## Usage
 - Check single host ftp server 
